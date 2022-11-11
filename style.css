@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.top-banner {
+    background-color: rgb(26, 26, 82);
+    color: white;
+    justify-content: content;
+    text-align: center;
+}
+
+.top-banner h1 , h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    font-size: 70%;
+    margin: 50px;
+    border: 2px solid red;
+}
+/*SIDE BAR CSS*/
+.side-bar {
+    padding: 9px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.side-bar img {
+    width: 170px;
+}
+/*Menu*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    text-align: left;
+    padding: 3px;
+}
+.menu {
+    border: 2px solid red;
+
+}
+
+.content {
+    border: 2px solid red;
+    width: 1200px;
+}
+.gen-qn-containers {
+    padding: 10px;
+    border: 2px solid rgb(85, 33, 228);
+}
+
+.sub-containers {
+    border: 2px solid rgb(221, 34, 34);
+}
+
+.ind-qn {
+    border: 2px solid rgb(107, 114, 10);
+}
